@@ -1,7 +1,7 @@
 package com.submerge.subapiinterface;
 
 import cn.hutool.core.util.RandomUtil;
-import com.submerge.subapiclientsdk.client.SubapiClient;
+import com.submerge.subapiclientsdk.client.SubApiClient;
 import com.submerge.subapiclientsdk.model.entity.User;
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
@@ -12,7 +12,7 @@ import javax.annotation.Resource;
 class SubApiInterfaceApplicationTests {
 
     @Resource
-    private SubapiClient subapiClient;
+    private SubApiClient subapiClient;
 
     @Test
     void contextLoads() {
